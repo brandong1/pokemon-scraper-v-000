@@ -21,5 +21,5 @@ class Pokemon
 end
 
 def find(id, db)
-
+  db.execute("SELECT * FROM pokemon WHERE id = #{id}").first
 end
