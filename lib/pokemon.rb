@@ -21,5 +21,5 @@ class Pokemon
 end
 
 def find(id, db)
-  SELECT name FROM po
+
 end
