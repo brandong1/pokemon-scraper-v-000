@@ -20,6 +20,6 @@ class Pokemon
   end
 end
 
-def find
-
+def find(id, db)
+  SELECT name FROM po
 end
