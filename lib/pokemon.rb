@@ -6,12 +6,13 @@ class Pokemon
     @type = type
     @db = db
     @@all << self
-end
+  end
 
-def self.all? 
+  def self.all?
   @@all
-end
+  end
 
-def self.save
+  def self.save
 
+  end
 end
